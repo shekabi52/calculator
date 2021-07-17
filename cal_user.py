@@ -13,6 +13,8 @@ def fun(i):
         c.div(a, b)
     elif (i == 5):
         c.expo(a, b)
+    elif ( i == 6):
+        c.swap(a,b)
     else:
         return 0
     return 1

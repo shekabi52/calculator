@@ -14,6 +14,12 @@ class calculator:
     def expo(self,a,b):
         print(a**b)
 
+    def swap(self,a,b):
+        temp=a
+        a=b
+        b=temp
+        print("values befor swapping",a,b)
+        print("values after swapped",a,b)
 class real:
     def main(self):
         cal=calculator()
